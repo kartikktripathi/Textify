@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Textify",
+    "slug": "Textify",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "textify",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "server"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#208AEF"
+        }
+      ]
+    ],
+    "experiments": {
+      "reactCompiler": true
+    }
+  }
+}
