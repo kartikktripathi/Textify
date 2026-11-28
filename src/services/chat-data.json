@@ -1,0 +1,186 @@
+{
+  "currentUser": {
+    "id": "user-me",
+    "name": "You",
+    "initials": "YO",
+    "avatarColor": "#2563EB"
+  },
+  "contacts": [
+    {
+      "id": "user-1",
+      "name": "Aarav Sharma",
+      "handle": "@aarav",
+      "initials": "AS",
+      "avatarColor": "#0EA5E9",
+      "status": "online",
+      "lastSeen": "Active now"
+    },
+    {
+      "id": "user-2",
+      "name": "Maya Patel",
+      "handle": "@maya",
+      "initials": "MP",
+      "avatarColor": "#8B5CF6",
+      "status": "online",
+      "lastSeen": "Active now"
+    },
+    {
+      "id": "user-3",
+      "name": "Liam Chen",
+      "handle": "@liam",
+      "initials": "LC",
+      "avatarColor": "#10B981",
+      "status": "offline",
+      "lastSeen": "Last seen 2h ago"
+    },
+    {
+      "id": "user-4",
+      "name": "Sofia Rodriguez",
+      "handle": "@sofia",
+      "initials": "SR",
+      "avatarColor": "#F59E0B",
+      "status": "offline",
+      "lastSeen": "Last seen yesterday"
+    }
+  ],
+  "conversations": [
+    {
+      "id": "conv-1",
+      "participant": {
+        "id": "user-1",
+        "name": "Aarav Sharma",
+        "handle": "@aarav",
+        "initials": "AS",
+        "avatarColor": "#0EA5E9",
+        "status": "online",
+        "lastSeen": "Active now"
+      },
+      "unreadCount": 2,
+      "isPinned": true,
+      "isTyping": false,
+      "updatedAt": "2026-11-28T11:28:00.000Z"
+    },
+    {
+      "id": "conv-2",
+      "participant": {
+        "id": "user-2",
+        "name": "Maya Patel",
+        "handle": "@maya",
+        "initials": "MP",
+        "avatarColor": "#8B5CF6",
+        "status": "online",
+        "lastSeen": "Active now"
+      },
+      "unreadCount": 0,
+      "isPinned": false,
+      "isTyping": false,
+      "updatedAt": "2026-11-28T11:03:00.000Z"
+    },
+    {
+      "id": "conv-3",
+      "participant": {
+        "id": "user-3",
+        "name": "Liam Chen",
+        "handle": "@liam",
+        "initials": "LC",
+        "avatarColor": "#10B981",
+        "status": "offline",
+        "lastSeen": "Last seen 2h ago"
+      },
+      "unreadCount": 0,
+      "isPinned": false,
+      "isTyping": false,
+      "updatedAt": "2026-11-28T09:11:00.000Z"
+    },
+    {
+      "id": "conv-4",
+      "participant": {
+        "id": "user-4",
+        "name": "Sofia Rodriguez",
+        "handle": "@sofia",
+        "initials": "SR",
+        "avatarColor": "#F59E0B",
+        "status": "offline",
+        "lastSeen": "Last seen yesterday"
+      },
+      "unreadCount": 1,
+      "isPinned": false,
+      "isTyping": false,
+      "updatedAt": "2026-11-27T11:31:00.000Z"
+    }
+  ],
+  "messagesByConversation": {
+    "conv-1": [
+      {
+        "id": "msg-101",
+        "conversationId": "conv-1",
+        "senderId": "user-1",
+        "text": "Hey! Did you get a chance to check out the new Textify layout?",
+        "createdAt": "2026-11-28T11:16:00.000Z",
+        "status": "read"
+      },
+      {
+        "id": "msg-102",
+        "conversationId": "conv-1",
+        "senderId": "user-me",
+        "text": "Working on it right now. Setting up the chat state so we can plug in the backend.",
+        "createdAt": "2026-11-28T11:21:00.000Z",
+        "status": "read"
+      },
+      {
+        "id": "msg-103",
+        "conversationId": "conv-1",
+        "senderId": "user-1",
+        "text": "Nice! Make sure message statuses and typing indicators are ready.",
+        "createdAt": "2026-11-28T11:27:00.000Z",
+        "status": "delivered"
+      },
+      {
+        "id": "msg-104",
+        "conversationId": "conv-1",
+        "senderId": "user-1",
+        "text": "Let me know when you want to test WebSockets.",
+        "createdAt": "2026-11-28T11:28:00.000Z",
+        "status": "delivered"
+      }
+    ],
+    "conv-2": [
+      {
+        "id": "msg-201",
+        "conversationId": "conv-2",
+        "senderId": "user-me",
+        "text": "Hey Maya, are we still on for the design sync?",
+        "createdAt": "2026-11-28T10:46:00.000Z",
+        "status": "read"
+      },
+      {
+        "id": "msg-202",
+        "conversationId": "conv-2",
+        "senderId": "user-2",
+        "text": "Yep! Sending over the updated color tokens in a bit.",
+        "createdAt": "2026-11-28T11:03:00.000Z",
+        "status": "read"
+      }
+    ],
+    "conv-3": [
+      {
+        "id": "msg-301",
+        "conversationId": "conv-3",
+        "senderId": "user-3",
+        "text": "The API endpoints for `/conversations` and `/messages` are drafted.",
+        "createdAt": "2026-11-28T09:11:00.000Z",
+        "status": "read"
+      }
+    ],
+    "conv-4": [
+      {
+        "id": "msg-401",
+        "conversationId": "conv-4",
+        "senderId": "user-4",
+        "text": "Welcome to Textify! Ping me if you need anything.",
+        "createdAt": "2026-11-27T11:31:00.000Z",
+        "status": "delivered"
+      }
+    ]
+  }
+}
